@@ -2,8 +2,9 @@ html,body,.wrapper{
     width:100%;
     margin: 0;
     height: 100vh;
+    background: pink;
     /*background: pink;*/
-    background-image: url("https://media.giphy.com/media/n8Hr1sE2yWPle/giphy.gif");
+   /* background-image: url("https://media.giphy.com/media/n8Hr1sE2yWPle/giphy.gif");*/
     background-size: cover;
 }
 
@@ -25,6 +26,97 @@ html,body,.wrapper{
   height: 100vh;
 }
 
-#panel1 {
-  background: url("./images/IMG_01.JPG");
+#IMG_01 {
+  background-image: url("./images/IMG_01.JPG");
+}
+
+#IMG_02 {
+  background-image: url("./images/IMG_02.JPG");
+}
+#IMG_03 {
+  background-image: url("./images/IMG_03.JPG");
+}
+#IMG_04 {
+  background-image: url("./images/IMG_04.JPG");
+}
+#IMG_05 {
+  background-image: url("./images/IMG_05.JPG");
+}
+#IMG_06 {
+  background-image: url("./images/IMG_06.JPG");
+}
+#IMG_07 {
+  background-image: url("./images/IMG_07.JPG");
+}
+#IMG_08 {
+  background-image: url("./images/IMG_08.JPG");
+}
+#IMG_09 {
+  background-image: url("./images/IMG_09.JPG");
+}
+#IMG_10 {
+  background-image: url("./images/IMG_10.JPG");
+}
+#IMG_11 {
+  background-image: url("./images/IMG_11.JPG");
+}
+#IMG_12 {
+  background-image: url("./images/IMG_12.JPG");
+}
+#IMG_13 {
+  background-image: url("./images/IMG_13.JPG");
+}
+#IMG_14 {
+  background-image: url("./images/IMG_14.JPG");
+}
+#IMG_15 {
+  background-image: url("./images/IMG_15.JPG");
+}
+#IMG_16 {
+  background-image: url("./images/IMG_16.JPG");
+}
+#IMG_17 {
+  background-image: url("./images/IMG_17.JPG");
+}
+#IMG_18 {
+  background-image: url("./images/IMG_18.JPG");
+}
+#IMG_19 {
+  background-image: url("./images/IMG_19.JPG");
+}
+#IMG_20 {
+  background-image: url("./images/IMG_20.JPG");
+}
+#IMG_2 {
+  background-image: url("./images/IMG_2.JPG");
+}
+#IMG_21 {
+  background-image: url("./images/IMG_21.JPG");
+}
+#IMG_22 {
+  background-image: url("./images/IMG_22.JPG");
+}
+#IMG_23 {
+  background-image: url("./images/IMG_23.JPG");
+}
+#IMG_24 {
+  background-image: url("./images/IMG_24.JPG");
+}
+#IMG_25 {
+  background-image: url("./images/IMG_25.JPG");
+}
+#IMG_26 {
+  background-image: url("./images/IMG_26.JPG");
+}
+#IMG_27 {
+  background-image: url("./images/IMG_27.JPG");
+}
+#IMG_28 {
+  background-image: url("./images/IMG_28.JPG");
+}
+#IMG_29 {
+  background-image: url("./images/IMG_29.JPG");
+}
+#IMG_30 {
+  background-image: url("./images/IMG_30.JPG");
 }
