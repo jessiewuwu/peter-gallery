@@ -1,0 +1,30 @@
+html,body,.wrapper{
+    width:100%;
+    margin: 0;
+    height: 100vh;
+    /*background: pink;*/
+    background-image: url("https://media.giphy.com/media/n8Hr1sE2yWPle/giphy.gif");
+    background-size: cover;
+}
+
+
+.wrapper {
+  /*background-image: url("https://media.giphy.com/media/n8Hr1sE2yWPle/giphy.gif");*/
+  background-size: cover;
+}
+
+.wrapper div{
+  width:calc(100% / 30);
+  display:inline-block;
+}
+
+.panel {
+  float: left;
+  /*border: 1px solid pink;*/
+  margin: 0 auto;
+  height: 100vh;
+}
+
+#panel1 {
+  background: url("./images/IMG_01.JPG");
+}
