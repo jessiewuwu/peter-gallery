@@ -1,17 +1,16 @@
-html,body,.wrapper{
+html,body, .big-wrap {
     width:100%;
     margin: 0;
-    height: 100vh;
-    background: pink;
+    /*height: 100vh;*/
     /*background: pink;*/
-   /* background-image: url("https://media.giphy.com/media/n8Hr1sE2yWPle/giphy.gif");*/
     background-size: cover;
 }
-
 
 .wrapper {
   /*background-image: url("https://media.giphy.com/media/n8Hr1sE2yWPle/giphy.gif");*/
   background-size: cover;
+  position: relative;
+  background: teal;
 }
 
 .wrapper div{
@@ -120,3 +119,11 @@ html,body,.wrapper{
 #IMG_30 {
   background-image: url("./images/IMG_30.JPG");
 }
+
+/*#footer {
+  height: 30px;
+  background: black;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}*/
