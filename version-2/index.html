@@ -67,11 +67,11 @@
       <div class="panel" data-id="IMG_56"></div>
     </div>
     <div class="clearfix"></div>
+  </div>
     <div id="footer">
       <a href="#">Gallery</a>
       <a href="#">Wait what</a>
     </div>
-  </div>
 </body>
 
 <script>
@@ -97,6 +97,7 @@
 
 $('.panel').hover(function(){
   var img_id = $(this).attr("data-id");
+  console.log(img_id)
   $('.big-wrap').attr("id", img_id);
 })
 

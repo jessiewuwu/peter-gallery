@@ -1,10 +1,28 @@
 html,body, .big-wrap {
     width:100%;
     margin: 0;
-    /*height: 100vh;*/
+    height: 100vh;
     /*background: pink;*/
     background-size: cover;
 }
+
+html, body {
+  height: 100%;
+}
+
+body {
+  padding-bottom: 30px;
+}
+
+#footer {
+  height: 30px;
+  background: black;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+
 
 .wrapper {
   /*background-image: url("https://media.giphy.com/media/n8Hr1sE2yWPle/giphy.gif");*/
@@ -13,7 +31,7 @@ html,body, .big-wrap {
 }
 
 .wrapper div{
-  width:calc(100% / 30);
+  width:calc(100% / 56);
   display:inline-block;
 }
 
@@ -21,8 +39,9 @@ html,body, .big-wrap {
   float: left;
   /*border: 1px solid pink;*/
   margin: 0 auto;
-  height: 100vh;
+  height: 90vh;
 }
+
 
 #IMG_01 {
   background-image: url("./images/IMG_01.JPG");
@@ -196,11 +215,3 @@ html,body, .big-wrap {
 #IMG_56 {
   background-image: url("./images/IMG_56.JPG");
 }
-
-/*#footer {
-  height: 30px;
-  background: black;
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-}*/
