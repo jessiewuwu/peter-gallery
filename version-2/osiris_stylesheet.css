@@ -1,12 +1,19 @@
 html,body, .big-wrap {
     width:100%;
-    margin: 0;
     height: 100vh;
+    margin: 0;
     /*background: white;*/
-    background: black;
-    color: white;
-    /*background-size: cover;*/
+    /*background-size: contain;*/
     font-family: 'Arial', sans-serif;
+}
+
+.big-wrap {
+  margin: 0;
+  background: black;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 #footer .active {
@@ -54,188 +61,192 @@ html,body, .big-wrap {
 
 
 #IMG_01 {
-  background-image: url("./images/IMG_01.JPG");
+  background-image: url("./images/01.jpg");
 }
 
 #IMG_02 {
-  background-image: url("./images/IMG_02.JPG");
+  background-image: url("./images/02.jpg");
 }
 #IMG_03 {
-  background-image: url("./images/IMG_03.JPG");
+  background-image: url("./images/03.jpg");
 }
 #IMG_04 {
-  background-image: url("./images/IMG_04.JPG");
+  background-image: url("./images/04.jpg");
 }
 #IMG_05 {
-  background-image: url("./images/IMG_05.JPG");
+  background-image: url("./images/05.jpg");
 }
 #IMG_06 {
-  background-image: url("./images/IMG_06.JPG");
+  background-image: url("./images/06.jpg");
 }
 #IMG_07 {
-  background-image: url("./images/IMG_07.JPG");
+  background-image: url("./images/07.jpg");
 }
 #IMG_08 {
-  background-image: url("./images/IMG_08.JPG");
+  background-image: url("./images/08.jpg");
 }
 #IMG_09 {
-  background-image: url("./images/IMG_09.JPG");
+  background-image: url("./images/09.jpg");
 }
 #IMG_10 {
-  background-image: url("./images/IMG_10.JPG");
+  background-image: url("./images/10.jpg");
 }
 #IMG_11 {
-  background-image: url("./images/IMG_11.JPG");
+  background-image: url("./images/11.jpg");
 }
 #IMG_12 {
-  background-image: url("./images/IMG_12.JPG");
+  background-image: url("./images/12.jpg");
 }
 #IMG_13 {
-  background-image: url("./images/IMG_13.JPG");
+  background-image: url("./images/13.jpg");
 }
 #IMG_14 {
-  background-image: url("./images/IMG_14.JPG");
+  background-image: url("./images/14.jpg");
 }
 #IMG_15 {
-  background-image: url("./images/IMG_15.JPG");
+  background-image: url("./images/15.jpg");
 }
 #IMG_16 {
-  background-image: url("./images/IMG_16.JPG");
+  background-image: url("./images/16.jpg");
 }
 #IMG_17 {
-  background-image: url("./images/IMG_17.JPG");
+  background-image: url("./images/17.jpg");
 }
 #IMG_18 {
-  background-image: url("./images/IMG_18.JPG");
+  background-image: url("./images/18.jpg");
 }
 #IMG_19 {
-  background-image: url("./images/IMG_19.JPG");
+  background-image: url("./images/19.jpg");
 }
 #IMG_20 {
-  background-image: url("./images/IMG_20.JPG");
+  background-image: url("./images/20.jpg");
 }
 #IMG_2 {
-  background-image: url("./images/IMG_2.JPG");
+  background-image: url("./images/2.jpg");
 }
 #IMG_21 {
-  background-image: url("./images/IMG_21.JPG");
+  background-image: url("./images/21.jpg");
 }
 #IMG_22 {
-  background-image: url("./images/IMG_22.JPG");
+  background-image: url("./images/22.jpg");
 }
 #IMG_23 {
-  background-image: url("./images/IMG_23.JPG");
+  background-image: url("./images/23.jpg");
 }
 #IMG_24 {
-  background-image: url("./images/IMG_24.JPG");
+  background-image: url("./images/24.jpg");
 }
 #IMG_25 {
-  background-image: url("./images/IMG_25.JPG");
+  background-image: url("./images/25.jpg");
 }
 #IMG_26 {
-  background-image: url("./images/IMG_26.JPG");
+  background-image: url("./images/26.jpg");
 }
 #IMG_27 {
-  background-image: url("./images/IMG_27.JPG");
+  background-image: url("./images/27.jpg");
 }
 #IMG_28 {
-  background-image: url("./images/IMG_28.JPG");
+  background-image: url("./images/28.jpg");
 }
 #IMG_29 {
-  background-image: url("./images/IMG_29.JPG");
+  background-image: url("./images/29.jpg");
 }
 #IMG_30 {
-  background-image: url("./images/IMG_30.JPG");
+  background-image: url("./images/30.jpg");
 }
 #IMG_31 {
-  background-image: url("./images/IMG_31.JPG");
+  background-image: url("./images/31.jpg");
 }
 #IMG_32 {
-  background-image: url("./images/IMG_32.JPG");
+  background-image: url("./images/32.jpg");
 }
 #IMG_33 {
-  background-image: url("./images/IMG_33.JPG");
+  background-image: url("./images/33.jpg");
 }
 #IMG_34 {
-  background-image: url("./images/IMG_34.JPG");
+  background-image: url("./images/34.jpg");
 }
 #IMG_35 {
-  background-image: url("./images/IMG_35.JPG");
+  background-image: url("./images/35.jpg");
 }
 #IMG_36 {
-  background-image: url("./images/IMG_36.JPG");
+  background-image: url("./images/36.jpg");
 }
 #IMG_37 {
-  background-image: url("./images/IMG_37.JPG");
+  background-image: url("./images/37.jpg");
 }
 #IMG_38 {
-  background-image: url("./images/IMG_38.JPG");
+  background-image: url("./images/38.jpg");
 }
 #IMG_39 {
-  background-image: url("./images/IMG_39.JPG");
+  background-image: url("./images/39.jpg");
 }
 #IMG_40 {
-  background-image: url("./images/IMG_40.JPG");
+  background-image: url("./images/40.jpg");
 }
 #IMG_41 {
-  background-image: url("./images/IMG_41.JPG");
+  background-image: url("./images/41.jpg");
 }
 #IMG_42 {
-  background-image: url("./images/IMG_42.JPG");
+  background-image: url("./images/42.jpg");
 }
 #IMG_43 {
-  background-image: url("./images/IMG_43.JPG");
+  background-image: url("./images/43.jpg");
 }
 #IMG_44 {
-  background-image: url("./images/IMG_44.JPG");
+  background-image: url("./images/44.jpg");
 }
 #IMG_45 {
-  background-image: url("./images/IMG_45.JPG");
+  background-image: url("./images/45.jpg");
 }
 #IMG_46 {
-  background-image: url("./images/IMG_46.JPG");
+  background-image: url("./images/46.jpg");
 }
 #IMG_47 {
-  background-image: url("./images/IMG_47.JPG");
+  background-image: url("./images/47.jpg");
 }
 #IMG_48 {
-  background-image: url("./images/IMG_48.JPG");
+  background-image: url("./images/48.jpg");
 }
 #IMG_49 {
-  background-image: url("./images/IMG_49.JPG");
+  background-image: url("./images/49.jpg");
 }
 #IMG_50 {
-  background-image: url("./images/IMG_50.JPG");
+  background-image: url("./images/50.jpg");
 }
 #IMG_51 {
-  background-image: url("./images/IMG_51.JPG");
+  background-image: url("./images/51.jpg");
 }
 #IMG_52 {
-  background-image: url("./images/IMG_52.JPG");
+  background-image: url("./images/52.jpg");
 }
 #IMG_53 {
-  background-image: url("./images/IMG_53.JPG");
+  background-image: url("./images/53.jpg");
 }
 #IMG_54 {
-  background-image: url("./images/IMG_54.JPG");
+  background-image: url("./images/54.jpg");
 }
 #IMG_55 {
-  background-image: url("./images/IMG_55.JPG");
+  background-image: url("./images/55.jpg");
 }
 #IMG_56 {
-  background-image: url("./images/IMG_56.JPG");
+  background-image: url("./images/56.jpg");
 }
 
 
 /*g a l l e r y*/
 
-
+.gallery-wrap {
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
 .gallery-wrap h1 {
   text-align: center;
   font-weight: bold;
   letter-spacing: 3px;
   padding: 2%;
+  background: white;
 }
 
 .card {
@@ -255,6 +266,10 @@ html,body, .big-wrap {
 .title {
   letter-spacing: 2px;
   font-weight: lighter;
+}
+
+.gallery-wrap h5 {
+  margin: 3%;
 }
 
 
