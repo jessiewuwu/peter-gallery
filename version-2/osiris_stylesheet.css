@@ -290,7 +290,10 @@ html,body, .big-wrap {
   width: 300px;
 /*  margin-left: auto;
   margin-right: auto;*/
-  margin: 10% auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .contact-details h1 {
