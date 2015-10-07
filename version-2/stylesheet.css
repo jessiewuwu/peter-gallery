@@ -2,17 +2,14 @@ html,body, .big-wrap {
     width:100%;
     margin: 0;
     height: 100vh;
-    /*background: pink;*/
+    background: powderblue;
     background-size: cover;
 }
 
-html, body {
+/*html, body {
   height: 100%;
-}
+}*/
 
-body {
-  padding-bottom: 30px;
-}
 
 #footer {
   height: 30px;
@@ -25,7 +22,6 @@ body {
 
 
 .wrapper {
-  /*background-image: url("https://media.giphy.com/media/n8Hr1sE2yWPle/giphy.gif");*/
   background-size: cover;
   position: relative;
 }
