@@ -2,9 +2,13 @@ html,body, .big-wrap {
     width:100%;
     margin: 0;
     height: 100vh;
-    background: powderblue;
+    background: white;
     /*background-size: cover;*/
     font-family: 'Arial', sans-serif;
+}
+
+#footer .active {
+  color: #FF00C3;
 }
 
 #footer {
@@ -223,6 +227,8 @@ html,body, .big-wrap {
 
 /*g a l l e r y*/
 
+
+
 .gallery-wrap h1 {
   text-align: center;
   font-weight: bold;
@@ -248,7 +254,6 @@ html,body, .big-wrap {
   letter-spacing: 2px;
   font-weight: lighter;
 }
-
 
 
 /*NATURAL SIZE IMG*/
