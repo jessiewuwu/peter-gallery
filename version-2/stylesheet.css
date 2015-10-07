@@ -1,21 +1,33 @@
-html,body,.wrapper{
+html,body, .big-wrap {
     width:100%;
     margin: 0;
     height: 100vh;
-    background: pink;
-    /*background: pink;*/
-   /* background-image: url("https://media.giphy.com/media/n8Hr1sE2yWPle/giphy.gif");*/
+    background: powderblue;
     background-size: cover;
 }
 
+/*html, body {
+  height: 100%;
+}*/
+
+
+#footer {
+  height: 30px;
+  background: black;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+
 
 .wrapper {
-  /*background-image: url("https://media.giphy.com/media/n8Hr1sE2yWPle/giphy.gif");*/
   background-size: cover;
+  position: relative;
 }
 
 .wrapper div{
-  width:calc(100% / 30);
+  width:calc(100% / 56);
   display:inline-block;
 }
 
@@ -23,8 +35,9 @@ html,body,.wrapper{
   float: left;
   /*border: 1px solid pink;*/
   margin: 0 auto;
-  height: 100vh;
+  height: 90vh;
 }
+
 
 #IMG_01 {
   background-image: url("./images/IMG_01.JPG");
@@ -119,4 +132,82 @@ html,body,.wrapper{
 }
 #IMG_30 {
   background-image: url("./images/IMG_30.JPG");
+}
+#IMG_31 {
+  background-image: url("./images/IMG_31.JPG");
+}
+#IMG_32 {
+  background-image: url("./images/IMG_32.JPG");
+}
+#IMG_33 {
+  background-image: url("./images/IMG_33.JPG");
+}
+#IMG_34 {
+  background-image: url("./images/IMG_34.JPG");
+}
+#IMG_35 {
+  background-image: url("./images/IMG_35.JPG");
+}
+#IMG_36 {
+  background-image: url("./images/IMG_36.JPG");
+}
+#IMG_37 {
+  background-image: url("./images/IMG_37.JPG");
+}
+#IMG_38 {
+  background-image: url("./images/IMG_38.JPG");
+}
+#IMG_39 {
+  background-image: url("./images/IMG_39.JPG");
+}
+#IMG_40 {
+  background-image: url("./images/IMG_40.JPG");
+}
+#IMG_41 {
+  background-image: url("./images/IMG_41.JPG");
+}
+#IMG_42 {
+  background-image: url("./images/IMG_42.JPG");
+}
+#IMG_43 {
+  background-image: url("./images/IMG_43.JPG");
+}
+#IMG_44 {
+  background-image: url("./images/IMG_44.JPG");
+}
+#IMG_45 {
+  background-image: url("./images/IMG_45.JPG");
+}
+#IMG_46 {
+  background-image: url("./images/IMG_46.JPG");
+}
+#IMG_47 {
+  background-image: url("./images/IMG_47.JPG");
+}
+#IMG_48 {
+  background-image: url("./images/IMG_48.JPG");
+}
+#IMG_49 {
+  background-image: url("./images/IMG_49.JPG");
+}
+#IMG_50 {
+  background-image: url("./images/IMG_50.JPG");
+}
+#IMG_51 {
+  background-image: url("./images/IMG_51.JPG");
+}
+#IMG_52 {
+  background-image: url("./images/IMG_52.JPG");
+}
+#IMG_53 {
+  background-image: url("./images/IMG_53.JPG");
+}
+#IMG_54 {
+  background-image: url("./images/IMG_54.JPG");
+}
+#IMG_55 {
+  background-image: url("./images/IMG_55.JPG");
+}
+#IMG_56 {
+  background-image: url("./images/IMG_56.JPG");
 }

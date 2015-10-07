@@ -7,38 +7,71 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 <body>
-  <div class="wrapper">
-    <div class="panel" data-id="IMG_01"></div>
-    <div class="panel" data-id="IMG_02"></div>
-    <div class="panel" data-id="IMG_03"></div>
-    <div class="panel" data-id="IMG_04"></div>
-    <div class="panel" data-id="IMG_05"></div>
-    <div class="panel" data-id="IMG_06"></div>
-    <div class="panel" data-id="IMG_07"></div>
-    <div class="panel" data-id="IMG_08"></div>
-    <div class="panel" data-id="IMG_09"></div>
-    <div  class="panel" data-id="IMG_10"></div>
-    <div  class="panel" data-id="IMG_11"></div>
-    <div  class="panel" data-id="IMG_12"></div>
-    <div  class="panel" data-id="IMG_13"></div>
-    <div  class="panel" data-id="IMG_14"></div>
-    <div  class="panel" data-id="IMG_15"></div>
-    <div  class="panel" data-id="IMG_16"></div>
-    <div  class="panel" data-id="IMG_17"></div>
-    <div  class="panel" data-id="IMG_18"></div>
-    <div  class="panel" data-id="IMG_19"></div>
-    <div  class="panel" data-id="IMG_20"></div>
-    <div  class="panel" data-id="IMG_21"></div>
-    <div  class="panel" data-id="IMG_22"></div>
-    <div  class="panel" data-id="IMG_23"></div>
-    <div  class="panel" data-id="IMG_24"></div>
-    <div  class="panel" data-id="IMG_25"></div>
-    <div  class="panel" data-id="IMG_26"></div>
-    <div  class="panel" data-id="IMG_27"></div>
-    <div  class="panel" data-id="IMG_28"></div>
-    <div  class="panel" data-id="IMG_29"></div>
-    <div  class="panel" data-id="IMG_30"></div>
+  <div class="big-wrap">
+    <div class="wrapper">
+      <div class="panel" data-id="IMG_01"></div>
+      <div class="panel" data-id="IMG_02"></div>
+      <div class="panel" data-id="IMG_03"></div>
+      <div class="panel" data-id="IMG_04"></div>
+      <div class="panel" data-id="IMG_05"></div>
+      <div class="panel" data-id="IMG_06"></div>
+      <div class="panel" data-id="IMG_07"></div>
+      <div class="panel" data-id="IMG_08"></div>
+      <div class="panel" data-id="IMG_09"></div>
+      <div class="panel" data-id="IMG_10"></div>
+      <div class="panel" data-id="IMG_11"></div>
+      <div class="panel" data-id="IMG_12"></div>
+      <div class="panel" data-id="IMG_13"></div>
+      <div class="panel" data-id="IMG_14"></div>
+      <div class="panel" data-id="IMG_15"></div>
+      <div class="panel" data-id="IMG_16"></div>
+      <div class="panel" data-id="IMG_17"></div>
+      <div class="panel" data-id="IMG_18"></div>
+      <div class="panel" data-id="IMG_19"></div>
+      <div class="panel" data-id="IMG_20"></div>
+      <div class="panel" data-id="IMG_21"></div>
+      <div class="panel" data-id="IMG_22"></div>
+      <div class="panel" data-id="IMG_23"></div>
+      <div class="panel" data-id="IMG_24"></div>
+      <div class="panel" data-id="IMG_25"></div>
+      <div class="panel" data-id="IMG_26"></div>
+      <div class="panel" data-id="IMG_27"></div>
+      <div class="panel" data-id="IMG_28"></div>
+      <div class="panel" data-id="IMG_29"></div>
+      <div class="panel" data-id="IMG_30"></div>
+      <div class="panel" data-id="IMG_31"></div>
+      <div class="panel" data-id="IMG_32"></div>
+      <div class="panel" data-id="IMG_33"></div>
+      <div class="panel" data-id="IMG_34"></div>
+      <div class="panel" data-id="IMG_35"></div>
+      <div class="panel" data-id="IMG_36"></div>
+      <div class="panel" data-id="IMG_37"></div>
+      <div class="panel" data-id="IMG_38"></div>
+      <div class="panel" data-id="IMG_39"></div>
+      <div class="panel" data-id="IMG_40"></div>
+      <div class="panel" data-id="IMG_41"></div>
+      <div class="panel" data-id="IMG_42"></div>
+      <div class="panel" data-id="IMG_43"></div>
+      <div class="panel" data-id="IMG_44"></div>
+      <div class="panel" data-id="IMG_45"></div>
+      <div class="panel" data-id="IMG_46"></div>
+      <div class="panel" data-id="IMG_47"></div>
+      <div class="panel" data-id="IMG_48"></div>
+      <div class="panel" data-id="IMG_49"></div>
+      <div class="panel" data-id="IMG_50"></div>
+      <div class="panel" data-id="IMG_51"></div>
+      <div class="panel" data-id="IMG_52"></div>
+      <div class="panel" data-id="IMG_53"></div>
+      <div class="panel" data-id="IMG_54"></div>
+      <div class="panel" data-id="IMG_55"></div>
+      <div class="panel" data-id="IMG_56"></div>
+    </div>
+    <div class="clearfix"></div>
   </div>
+    <div id="footer">
+      <a href="#">Gallery</a>
+      <a href="#">Wait what</a>
+    </div>
 </body>
 
 <script>
@@ -50,9 +83,21 @@
 //   $('.wrapper').css("background-image", img_path);
 // })
 
+// var all_panels = $('.panel');
+// var allImgTags = [];
+// for(var i=0; i < all_panels.length; i++){
+//  var imgTag = $(all_panels[i]).attr('data-id');
+//  allImgTags.push(imgTag);
+// }
+
+// for(var j=0; j < allImgTags.length; j++) {
+//  $('.wrapper').attr("id", allImgTags[j]);
+// }
+
+
 $('.panel').hover(function(){
   var img_id = $(this).attr("data-id");
-  $('.wrapper').attr("id", img_id);
+  $('.big-wrap').attr("id", img_id);
 })
 
 
