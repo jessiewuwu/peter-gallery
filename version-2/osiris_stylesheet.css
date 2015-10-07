@@ -2,7 +2,9 @@ html,body, .big-wrap {
     width:100%;
     margin: 0;
     height: 100vh;
-    background: white;
+    /*background: white;*/
+    background: black;
+    color: white;
     /*background-size: cover;*/
     font-family: 'Arial', sans-serif;
 }
@@ -265,3 +267,31 @@ html,body, .big-wrap {
 .card img {
   padding-bottom: 40px;
 }*/
+
+
+/*a b o u t */
+
+.contact-details {
+  width: 300px;
+/*  margin-left: auto;
+  margin-right: auto;*/
+  margin: 10% auto;
+}
+
+.contact-details h1 {
+  letter-spacing: 2px;
+  font-size: 2.5em;
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-details a:hover {
+  border-bottom: 2px solid #FF00C3;
+}
+
+.contact-details .fa {
+  color: cyan;
+}
