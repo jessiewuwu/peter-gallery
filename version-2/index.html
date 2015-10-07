@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>YOOHOO PETER!!</title>
-  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="osiris_stylesheet.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="osiris.js"></script>
 </head>
 <body>
   <div class="big-wrap">
@@ -69,39 +70,10 @@
     <div class="clearfix"></div>
   </div>
     <div id="footer">
-      <a href="/gallery">Gallery</a>
-      <a href="/portfolio">Portfolio</a>
-      <a href="/about">About</a>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
     </div>
 </body>
-
-<script>
-
-
-// $('.panel').hover(function(){
-//   var img_id = $(this).attr("data-id");
-//   var img_path = "url('./images/" + img_id + "')"
-//   $('.wrapper').css("background-image", img_path);
-// })
-
-// var all_panels = $('.panel');
-// var allImgTags = [];
-// for(var i=0; i < all_panels.length; i++){
-//  var imgTag = $(all_panels[i]).attr('data-id');
-//  allImgTags.push(imgTag);
-// }
-
-// for(var j=0; j < allImgTags.length; j++) {
-//  $('.wrapper').attr("id", allImgTags[j]);
-// }
-
-
-$('.panel').hover(function(){
-  var img_id = $(this).attr("data-id");
-  $('.big-wrap').attr("id", img_id);
-})
-
-
-</script>
-
 </html>
