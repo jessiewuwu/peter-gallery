@@ -17,6 +17,19 @@ html,body, .big-wrap {
   bottom: 0;
   position: absolute;
   width: 100%;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  line-height: 30px;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-transform: lowercase;
+  letter-spacing: 3px;
+  font-size: .8em;
 }
 
 
