@@ -284,6 +284,10 @@ html,body, .big-wrap {
 }*/
 
 
+/*m a s k s*/
+.modal-dialog {width:600px;}
+.thumbnail {margin-bottom:6px;}
+
 /*a b o u t */
 
 .contact-details {
