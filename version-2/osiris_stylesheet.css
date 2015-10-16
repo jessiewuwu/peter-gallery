@@ -285,8 +285,12 @@ html,body, .big-wrap {
 
 
 /*m a s k s*/
-.modal-dialog {width:600px;}
-.thumbnail {margin-bottom:6px;}
+
+.ui .card .image img {
+  width: 350px;
+}
+/*.modal-dialog {width:600px;}
+.thumbnail {margin-bottom:6px;}*/
 
 /*a b o u t */
 
