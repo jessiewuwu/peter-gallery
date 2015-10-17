@@ -17,13 +17,13 @@ html,body, .big-wrap {
   padding-top: 3%;
 }
 
-#header .active {
+/*.header .active {
   color: #FF00C3;
-}
+}*/
 
-#header {
+.header {
   height: 30px;
-  background: black;
+  /*background: black;*/
   top: 0;
   /*position: absolute;*/
   position: fixed;
@@ -35,8 +35,8 @@ html,body, .big-wrap {
   margin-bottom: 2%;
 }
 
-#header a {
-  color: white;
+.header a {
+  /*color: white;*/
   text-decoration: none;
   padding-left: 5%;
   padding-right: 5%;
@@ -44,6 +44,41 @@ html,body, .big-wrap {
   letter-spacing: 3px;
   font-size: .8em;
 }
+
+#home-header,
+#about-header {
+  background: #000000;
+}
+
+#home-header .active,
+#about-header .active {
+  color: #FFFFFF;
+}
+
+#home-header a,
+#about-header a {
+  color: #D8D8D8;
+}
+
+#gallery-header,
+#artworks-header {
+  background: #FFFFFF;
+}
+
+#gallery-header .active,
+#artworks-header .active {
+  color: #000000;
+}
+
+#gallery-header a,
+#artworks-header a {
+  color: #D8D8D8;
+}
+
+#artworks-header a {
+  font-size: .9em;
+}
+
 
 .wrapper {
   background-size: cover;
