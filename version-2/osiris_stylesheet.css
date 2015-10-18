@@ -1,10 +1,14 @@
-html,body, .big-wrap {
+html, .big-wrap {
     width:100%;
     height: 100vh;
     margin: 0;
     /*background: white;*/
     /*background-size: contain;*/
     font-family: 'Arial', sans-serif;
+}
+
+body {
+  margin: 0;
 }
 
 .big-wrap {
@@ -22,9 +26,10 @@ html,body, .big-wrap {
 .nav-bar-links {
   margin-top: 0;
 }
+
 .header ul{
-    padding: 0;
-    list-style: none;
+  padding: 0;
+  list-style: none;
 }
 .header ul li{
     display: inline-block;
@@ -420,19 +425,22 @@ html,body, .big-wrap {
 /*a b o u t */
 
 .contact-container {
-  background: black;
   height: 100%;
 }
 
 .contact-details {
-  width: 300px;
-/*  margin-left: auto;
-  margin-right: auto;*/
+  width: 52%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10%;
   padding-bottom: 10%;
-  color: white;
+  color: black;
+}
+
+.contact-details {
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  line-height: 130%;
 }
 
 .contact-details h1 {
@@ -457,18 +465,43 @@ html,body, .big-wrap {
   color: white;
 }
 
+.contact-details h1 {
+  text-align: center;
+}
+
+.image {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.osiris-pic {
+  margin: 20px auto;
+  width: 500px;
+}
+
+.first-p {
+  padding-top: 10%;
+}
+
 /* a b o u t     f o o t e r */
 .footer {
   /*height: 30px;*/
-  bottom: 5px;
-  position: absolute;
-  /*position: fixed;*/
+  /*position: absolute;*/
+  bottom: 0;
+  position: fixed;
   width: 100%;
   font-family: 'Arial', sans-serif;
   line-height: 30px;
   z-index: 1000;
   margin-top: 2%;
-  width: 94%;
+  width: 100%;
+  background: black;
+}
+
+.footer span{
+  color: white;
+  margin-left: 20px;
+  font-size: .8em;
 }
 
 .footer ul {
@@ -476,6 +509,7 @@ html,body, .big-wrap {
   margin: 0;
   padding: 0;
   float: right;
+  margin-right: 20px;
 }
 
 .footer ul li {
@@ -503,4 +537,34 @@ html,body, .big-wrap {
   left:50%;
   transform:translateX(-50%);
   text-align: center;
+}
+
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .nav-bar-links {
+    font-size: 3.5em;
+    margin-top: 2%;
+    padding: 10%;
+  }
+
+  #home-header, #about-header, #artworks-header {
+    height: 78px;
+  }
+
+  .contact-details {
+    width: 85%;
+  }
+
+  .contact-details h1:first-child {
+    padding-top: 10%;
+  }
+
+  .contact-details p {
+    font-size: 25px;
+    line-height: 150%;
+  }
+
 }
