@@ -72,6 +72,7 @@ body {
 
 .header ul li ul.dropdown-black {
   background: black;
+  width: 100%;
 }
 
 .header ul li:hover ul.dropdown{
@@ -539,7 +540,8 @@ body {
   color: white;
   white-space: nowrap;
   display:none;
-  padding: 10px;
+  /*padding: 10px;*/
+  padding: 0px 10px;
 }
 
 .tooltip:hover > span {
@@ -559,17 +561,24 @@ body {
   and (orientation: portrait) {
   .header ul li,
   .nav-links {
-      width: 18%;
-    }
+    /*width: 18%;*/
+    width: 185px;
+  }
+
   .nav-bar-links {
     font-size: 3em;
     margin-top: 2%;
     padding: 10%;
   }
 
-  #home-header, #about-header, #artworks-header {
+  #home-header, #about-header, #artworks-header, #gallery-header {
     height: 78px;
   }
+
+ /*  #gallery-header {
+    background: white;
+    height: 78px;
+   }*/
 
   .contact-details {
     width: 85%;
@@ -705,7 +714,8 @@ and (max-width: 814px) {
 
   .footer span.footer-deets {
     margin: 0;
-    padding: 7%;
+    /*padding: 7%;*/
+    padding: 10px;
     line-height: 110%;
     display: block;
     -webkit-margin-before: 1em;
