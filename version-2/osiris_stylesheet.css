@@ -432,7 +432,8 @@ body {
 
 .modal-body.modal-body.modal-body {
   padding: 0;
-  width: 40%;
+  /*width: 40%;*/
+  width: 60%;
   margin: 0 auto;
 }
 
