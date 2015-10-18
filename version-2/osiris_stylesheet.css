@@ -21,6 +21,12 @@ body {
   padding-top: 3%;
 }
 
+
+.container-box {
+  width: 80%;
+  margin: 0 auto;
+}
+
 /*nav bar*/
 
 .nav-bar-links {
@@ -404,6 +410,7 @@ body {
   border-radius: 0;
   margin-bottom:6px;
   /*padding-bottom: 20px;*/
+  background: black;
 }
 
 .modal-dialog.modal-dialog.modal-dialog {
@@ -498,9 +505,9 @@ body {
   background: black;
 }
 
-.footer span{
+.footer span.footer-deets{
   color: white;
-  margin-left: 20px;
+  margin-left: 80px;
   font-size: .8em;
 }
 
@@ -509,7 +516,7 @@ body {
   margin: 0;
   padding: 0;
   float: right;
-  margin-right: 20px;
+  margin-right: 80px;
 }
 
 .footer ul li {
