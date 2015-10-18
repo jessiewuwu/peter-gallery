@@ -496,7 +496,6 @@ body {
   /*position: absolute;*/
   bottom: 0;
   position: fixed;
-  width: 100%;
   font-family: 'Arial', sans-serif;
   line-height: 30px;
   z-index: 1000;
@@ -509,6 +508,7 @@ body {
   color: white;
   margin-left: 80px;
   font-size: .8em;
+  margin-right: 80px;
 }
 
 .footer ul {
@@ -590,12 +590,23 @@ body {
   }
 
   .footer {
-    padding-top: 5%;
-    padding-bottom: 5%;
+/*    padding-top: 5%;
+    padding-bottom: 5%;*/
+    padding: 5%;
   }
 
   .footer .fa.fa.fa {
-    font-size: 2em;
+    font-size: 3em;
+  }
+
+  .footer .social-links.social-links.social-links {
+    padding-top: 25px;
+    text-align: center;
+    float: none;
+  }
+
+  .footer-deets.footer-deets.footer-deets {
+    font-size: 30px;
   }
 
   .exhibit span {
