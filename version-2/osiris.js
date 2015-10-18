@@ -15,7 +15,14 @@ $( document ).ready(function() {
       $('#myModal').modal({show:true});
   });
 
+
+  $('#myModal').on('click', function(){
+    $('.modal').modal('hide');
+  })
+
 });
+
+
 
 
 

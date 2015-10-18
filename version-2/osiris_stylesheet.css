@@ -439,8 +439,10 @@ body {
   width: 52%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  /*padding-top: 10%;*/
+  /*padding-bottom: 10%;*/
+  padding-top: 75px;
+  padding-bottom: 75px;
   color: black;
 }
 
@@ -487,7 +489,7 @@ body {
 }
 
 .first-p {
-  padding-top: 10%;
+  padding-top: 30px;
 }
 
 /* a b o u t     f o o t e r */
@@ -567,7 +569,8 @@ body {
   }
 
   .contact-details h1:first-child {
-    padding-top: 10%;
+    /*padding-top: 30px;*/
+    padding-top: 75px;
   }
 
   .contact-details p {
@@ -627,5 +630,25 @@ body {
   .footer span.footer-deets {
     margin-left: 15px;
     margin-right: 0px;
+  }
+}
+
+/*browser nav bar */
+@media only screen
+and (min-width: 400px)
+and (max-width: 814px) {
+  .header ul li {
+    width: 23%;
+  }
+
+  .header .dropdown,
+  .header .dropdown-black {
+    width: 100%;
+  }
+
+  .header .dropdown li,
+  .header .dropdown-black li  {
+    text-align: center;
+    width: 100%;
   }
 }
