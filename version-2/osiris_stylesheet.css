@@ -364,12 +364,16 @@ html,body, .big-wrap {
   background: white;
   bottom: 0;
   width: 100%;
-  margin-left: 100px;
-  font-size: 1em;
+  font-size: .7em;
   /*padding-top: .75%;*/
-  margin: 10px 100px 0px 100px;
+  /*margin: 10px 100px 0px 100px;*/
   height: 30px;
   line-height: 30px;
+  text-align: right;
+}
+
+.exhibit span {
+  margin-right: 101px;
 }
 
 /*m a s k s*/
