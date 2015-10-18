@@ -567,4 +567,32 @@ body {
     line-height: 150%;
   }
 
+  .dropdown {
+    margin-top: 30px;
+  }
+
+  .dropdown li {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    /*height: 70px;*/
+    /*line-height: 170px;*/
+  }
+
+  .dropdown li a {
+    line-height: 70px;
+  }
+
+  .footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .footer .fa.fa.fa {
+    font-size: 2em;
+  }
+
+  .exhibit span {
+    font-size: 25px;
+  }
+
 }
