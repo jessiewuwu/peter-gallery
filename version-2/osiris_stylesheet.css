@@ -40,14 +40,15 @@ body {
 
 /*.header ul li*/
 .nav-links {
-    display: inline-block;
-    position: relative;
-    line-height: 21px;
-    /*text-align: left;*/
-    text-align: center;
-    width: 200px;
-   /* padding-left: 3%;
-    padding-right: 3%;*/
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+  /*text-align: left;*/
+  text-align: center;
+  /*width: 200px;*/
+  width: 160px;
+ /* padding-left: 3%;
+  padding-right: 3%;*/
 }
 
 .header ul li a {
@@ -68,6 +69,7 @@ body {
     position: absolute;
     z-index: 999;
     background: white;
+    width: 100%;
 }
 
 .header ul li ul.dropdown-black {
@@ -562,7 +564,7 @@ body {
   .header ul li,
   .nav-links {
     /*width: 18%;*/
-    width: 185px;
+    /*width: 185px;*/
   }
 
   .nav-bar-links {
