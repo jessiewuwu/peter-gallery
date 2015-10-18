@@ -546,11 +546,12 @@ body {
   text-align: center;
 }
 
-
+/*mobile portrait*/
 @media only screen
   and (min-device-width: 320px)
   and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
   .nav-bar-links {
     font-size: 3.5em;
     margin-top: 2%;
@@ -613,4 +614,18 @@ body {
     font-size: 25px;
   }
 
+}
+
+
+/*mobile landscape*/
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+  .footer span.footer-deets {
+    margin-left: 15px;
+    margin-right: 0px;
+  }
 }
