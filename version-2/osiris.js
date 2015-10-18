@@ -3,6 +3,7 @@ $( document ).ready(function() {
   $('.panel').hover(function(){
     var img_id = $(this).attr("data-id");
     $('.big-wrap').attr("id", img_id);
+    console.log(img_id);
   })
 
 

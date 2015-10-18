@@ -133,15 +133,24 @@ html,body, .big-wrap {
 }
 
 .wrapper div{
-  width:calc(100% / 56);
+  /*width:calc(100% / 56);*/
+  width: calc(100% / 28);
   display:inline-block;
+}
+
+#bottom-level {
+  height: 50vh;
+}
+
+#top-level {
+  height: 50vh;
 }
 
 .panel {
   float: left;
   /*border: 1px solid pink;*/
   margin: 0 auto;
-  height: 90vh;
+  height: 50vh;
 }
 
 
