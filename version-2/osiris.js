@@ -13,14 +13,6 @@ $( document ).ready(function() {
       $('#myModal').modal({show:true});
   });
 
-
-  // $('.mask-gallery').on('click', "#myModal", function(){
-  //   // $('.modal-backdrop').empty();
-  //   // $('.fade').remove();
-  //   // console.log('in click event');
-  //   $('#myModal').modal('hide');
-  // })
-
 $('#myModal').on('click', function(){
   $('.modal').removeClass('fade');
   $('#myModal').modal('hide');

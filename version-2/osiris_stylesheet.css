@@ -37,7 +37,9 @@ body {
   padding: 0;
   list-style: none;
 }
-.header ul li{
+
+/*.header ul li*/
+.nav-links {
     display: inline-block;
     position: relative;
     line-height: 21px;
@@ -61,7 +63,7 @@ body {
 }*/
 
 .header ul li ul.dropdown{
-    min-width: 125px; /* Set width of the dropdown */
+    /*min-width: 125px;*/ /* Set width of the dropdown; commented out for responsiveness */
     display: none;
     position: absolute;
     z-index: 999;
@@ -555,8 +557,12 @@ body {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+  .header ul li,
+  .nav-links {
+      width: 18%;
+    }
   .nav-bar-links {
-    font-size: 3.5em;
+    font-size: 3em;
     margin-top: 2%;
     padding: 10%;
   }
@@ -581,6 +587,7 @@ body {
 
   .dropdown {
     margin-top: 30px;
+    width: 100%;
   }
 
   .dropdown li {
@@ -642,6 +649,22 @@ body {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
+
+  .header .nav-bar-links .nav-links {
+    width: 18%;
+  }
+
+  .dropdown li,
+  .dropdown-black li {
+    width: 100%;
+  }
+
+  .dropdown, .dropdown-black {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
   .footer span.footer-deets {
     margin-left: 15px;
     margin-right: 0px;
@@ -658,7 +681,7 @@ body {
 and (min-width: 400px)
 and (max-width: 814px) {
   .header ul li {
-    width: 23%;
+    width: 18%;
   }
 
   .header .dropdown,
