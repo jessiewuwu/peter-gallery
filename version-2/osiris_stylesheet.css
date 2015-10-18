@@ -427,7 +427,10 @@ body {
 
 .modal-body.modal-body.modal-body {
   padding: 0;
+  width: 40%;
+  margin: 0 auto;
 }
+
 
 /*a b o u t */
 
@@ -444,9 +447,6 @@ body {
   padding-top: 75px;
   padding-bottom: 75px;
   color: black;
-}
-
-.contact-details {
   font-weight: 100;
   letter-spacing: 0.5px;
   line-height: 130%;
@@ -537,6 +537,7 @@ body {
   color: white;
   white-space: nowrap;
   display:none;
+  padding: 10px;
 }
 
 .tooltip:hover > span {
@@ -617,6 +618,20 @@ body {
     font-size: 25px;
   }
 
+  .tooltip > span {
+    font-size: 2.5em;
+    padding: 10px;
+  }
+
+  #myModal .modal-content .modal-body {
+    width: 90%;
+  }
+
+  .modal-body.modal-body.modal-body {
+    width: 90%;
+    margin-top: 25%;
+  }
+
 }
 
 
@@ -630,6 +645,11 @@ body {
   .footer span.footer-deets {
     margin-left: 15px;
     margin-right: 0px;
+  }
+
+  .tooltip > span {
+    font-size: 2.5em;
+    padding: 10px;
   }
 }
 
@@ -650,5 +670,31 @@ and (max-width: 814px) {
   .header .dropdown-black li  {
     text-align: center;
     width: 100%;
+  }
+
+  .contact-details h1:first-child  {
+    line-height: 35px;
+  }
+
+  .contact-details {
+    margin-bottom: 20%;
+  }
+
+  .footer span.footer-deets {
+    margin: 0;
+    padding: 7%;
+    line-height: 110%;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 0px !important;
+  }
+
+  .footer ul, .social-links {
+    margin-right: 125px;
   }
 }

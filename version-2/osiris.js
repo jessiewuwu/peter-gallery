@@ -9,16 +9,22 @@ $( document ).ready(function() {
 
   $('.thumbnail').click(function(){
       $('.modal-body').empty();
-      var title = $(this).parent('a').attr("title");
-      $('.modal-title').html(title);
       $($(this).parents('div').html()).appendTo('.modal-body');
       $('#myModal').modal({show:true});
   });
 
 
-  $('#myModal').on('click', function(){
-    $('.modal').modal('hide');
-  })
+  // $('.mask-gallery').on('click', "#myModal", function(){
+  //   // $('.modal-backdrop').empty();
+  //   // $('.fade').remove();
+  //   // console.log('in click event');
+  //   $('#myModal').modal('hide');
+  // })
+
+$('#myModal').on('click', function(){
+  $('.modal').removeClass('fade');
+  $('#myModal').modal('hide');
+})
 
 });
 
