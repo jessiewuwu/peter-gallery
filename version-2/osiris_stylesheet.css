@@ -733,3 +733,34 @@ and (max-width: 814px) {
     margin-right: 125px;
   }
 }
+
+
+@media only screen
+and (max-width: 384px) {
+  .header {
+    height: 160px;
+  }
+
+  .gallery-wrap {
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
+  .footer {
+    line-height: 15px;
+    font-size: 0.8em;
+  }
+
+  .footer span.footer-deets,
+  .footer-deets.footer-deets.footer-deets {
+    margin-left: 0px;
+  }
+
+  .footer ul {
+    margin-right: 0px;
+  }
+
+  .contact-details {
+    font-size: 0.8em;
+  }
+}
