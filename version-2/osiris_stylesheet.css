@@ -445,7 +445,7 @@ body {
 }
 
 .contact-details {
-  width: 52%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   /*padding-top: 10%;*/
@@ -461,15 +461,17 @@ body {
 .contact-details h1 {
   letter-spacing: 2px;
   font-size: 2.5em;
+  margin-bottom: 60px;
 }
 
 .contact-details a {
   text-decoration: none;
-  color: white;
+  color: #FF00C3;
 }
 
 .contact-details a:hover {
-  border-bottom: 2px solid #FF00C3;
+  /*border-bottom: 2px solid #FF00C3;*/
+  border-bottom: 2px solid cyan;
 }
 
 .contact-details .fa {
@@ -497,6 +499,11 @@ body {
 .first-p {
   padding-top: 30px;
 }
+
+.contact-details p {
+  padding-bottom: 10px;
+}
+
 
 /* a b o u t     f o o t e r */
 .footer {
